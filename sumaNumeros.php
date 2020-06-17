@@ -17,9 +17,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <?php include_once("enlaces.php") ?>
     <title>Suma</title>
 </head>
 <body>
@@ -44,8 +42,7 @@
             
             <?php
                 if(isset($resultado)){
-                    echo "<h3>La suma es</h3>"  . "<p>$resultado</p>";
-                    var_dump($_POST);
+                    echo "<h3>La suma es</h3>"  . "<p>$resultado</p>";                    
                 } 
             ?>       
             
